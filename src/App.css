@@ -1,0 +1,112 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+.App {
+  text-align: center;
+}
+.boxApp{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /*align-content: center;*/
+  height: 97vh;
+  width: 96vw;
+  border-radius: 25px;
+  border: 7px groove #6e5244;
+  background: linear-gradient(135deg, #fff8f3, #ffd465);
+}
+
+.header-player {
+  display: flex;
+  justify-content: flex-start;
+  background: linear-gradient(135deg, #ffde81, #ff9728);
+  border-bottom: 1px solid #c67720;
+  /*border-bottom: 5px groove #c67720;*/
+  border-radius: 7px;
+  height: 50px;
+  padding: 0 0 35px 0;
+}
+.App-header {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 7px;
+  height: 270px;
+}
+.centreHead{
+  display: flex;
+  margin: auto;
+
+}
+.app-cover{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tales-list-svitok{
+  height: 35%;
+  overflow-y: auto;
+}
+.box-back-icon{
+  display: flex;
+  margin-left: 5px;
+  margin-top: 25px;
+  width: 40px;
+  height: 30px;
+  border: 1px solid #9b9b9b;
+  border-radius: 5px;
+  color: #9b9b9b;
+  font-size: 30px;
+  background-color: transparent;
+}
+.icon-back{
+  margin: auto;
+}
+.opacity0{
+  opacity: 0;
+}
+.App-title {
+  display: inline-block;
+    font-family: 'Comic Sans MS', 'sans-serif', cursive;
+    line-height: 70px;
+    color: #ff0000;
+    font-weight:bold;
+    font-style:italic;
+    font-size: 66px;
+    text-shadow:0 0 0 rgb(224,71,-31),1px 1px 0 rgb(212,59,-43),2px 2px 0 rgb(199,46,-56),3px 3px 0 rgb(186,33,-69), 4px 4px 0 rgb(173,20,-82),5px 5px 4px rgba(0,0,0,0.25),5px 5px 1px rgba(0,0,0,0.5),0 0 4px rgba(0,0,0,.2);
+}
+
+.boxList{
+  height: 99%;
+  overflow-y: auto;
+}
+.list-line{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  margin-top: 2px;
+  box-shadow: 0 0 10px rgba(164, 38, 239, 0.1);
+}
+.name-list{
+  margin: auto;
+  font-size: 31px;
+  line-height: 36px;
+    letter-spacing: 3px;
+    font-family: 'Comic Sans MS', 'sans-serif', cursive;
+    color: rgba(255, 22, 7, 0.98);
+    font-weight:bold;
+    font-style:italic;
+  text-shadow: 0 2px 2px rgba(253, 255, 136, 0.91), 1px 3px 2px #555;
+}
+
+
+
+

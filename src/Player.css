@@ -1,0 +1,176 @@
+@import url(~font-awesome/css/font-awesome.css);
+* {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, PingFang SC, Source Han Sans CN, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.player-container, .player-container .info-and-control, .player-container .info-and-control .control-container, .player-container .info-and-control .control-container .controls, .player-container .info-and-control .control-container .mode-control, .player-container .info-and-control .time-and-volume {
+    display: flex;
+}
+.player-container .info-and-control {
+    flex-direction: column
+}
+.hide{
+    display: none;
+}
+.player-container .info-and-control .time-and-volume .volume-container {
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.icon {
+    color: #4a4a4a;
+}
+.player-container {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.player-container .info-and-control {
+    width: 98%;
+}
+
+.player-container .info-and-control .music-info {
+    text-align: center
+}
+
+.player-container .info-and-control .music-info .artist, .player-container .info-and-control .music-info .title {
+    font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.player-container .info-and-control .music-info .title {
+    margin-bottom: 0;
+    color: #030303;
+    font-size: 1.5em
+}
+
+.player-container .info-and-control .music-info .artist {
+    color: #4a4a4a;
+    font-size: 1em
+}
+
+.player-container .info-and-control .time-and-volume {
+    height: 2.7em;
+    line-height: 2.7em;
+    color: #9b9b9b;
+    font-size: 1.2em;
+}
+
+.player-container .info-and-control .time-and-volume .left-time {
+    width: 3.2em;
+    margin-right: 10px;
+    margin-top: 4px;
+    text-align: left;
+    font-weight: 400
+}
+
+.player-container .info-and-control .time-and-volume .volume-container .volume-icon i {
+    font-size: 30px;
+}
+
+.player-container .info-and-control .time-and-volume .volume-container .volume-wrapper {
+    width: 70px;
+    padding-left: 5px;
+}
+
+.player-container .info-and-control .time-and-volume .volume-container .volume-wrapper .progress-container {
+    height: 2px;
+    margin-top: calc(1.2em - 4px);
+    background-color: #e5e5e5;
+}
+
+.player-container .info-and-control .time-and-volume .volume-container .volume-wrapper .progress-container .progress {
+    height: 5px;
+}
+
+.player-container .info-and-control .time-and-volume .volume-container:hover .volume-wrapper {
+    opacity: 1
+}
+
+.player-container .info-and-control .progress-container {
+    margin-top: 5px;
+    width: 97%;
+    height: 3px;
+    background-color: #dadada;
+}
+
+.player-container .info-and-control .progress-container .progress {
+    height: 100%;
+    background-color: #ff6600;
+}
+
+.player-container .info-and-control .control-container {
+    position: relative;
+    width: 90%;
+    margin-top: 1.3em;
+    justify-content: center;
+    font-size: 1.8em;
+}
+
+.player-container .info-and-control .control-container .mode-control {
+    position: absolute;
+    left: 0
+}
+
+.player-container .info-and-control .control-container .controls {
+    justify-content: space-around;
+}
+
+.cover {
+    width: 340px;
+    height: 210px;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+    .player-container .info-and-control {
+        width: 90%;
+    }
+
+    .player-container .info-and-control .music-info {
+        text-align: start
+    }
+
+    .player-container .info-and-control .time-and-volume .volume-container {
+        display: flex
+    }
+
+       .player-container .info-and-control .control-container {
+        justify-content: space-between;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .player-container .info-and-control .control-container .mode-control {
+        position: relative;
+    }
+
+    .player-container .info-and-control .control-container .controls {
+        width: 190px;
+        justify-content: space-between;
+    }
+
+
+    .orang-div{
+        background-color: #ff6600;
+    }
+    .orange{
+        color: #ff6600;
+    }
+    .volumicon{
+        color: #ff6600;
+        margin-left: 80px;
+    }
+
+    .marg-auto{
+        margin: auto;
+    }
+
+    .big {
+        font-size: 60px;
+        color: red;
+    }
+

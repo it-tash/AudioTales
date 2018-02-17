@@ -1,0 +1,81 @@
+[
+
+{
+  "id": 0,
+  "url": "./audio/Meeaw.mp3",
+  "cover": "./img/Meeaw.svg",
+  "title": "Кто сказал мяу",
+  "artist": [
+    "дикторы"
+  ]
+},
+
+{
+  "id": 1,
+  "url": "./audio/redShap.mp3",
+  "cover": "./img/redShap.svg",
+  "title": "Красная шапочка",
+  "artist": [
+    "дикторы"
+  ]
+},
+
+{
+  "id": 2,
+  "url": "./audio/ryaba.mp3",
+  "cover": "./img/ryaba.svg",
+  "title": "Курочка ряба",
+  "artist": [
+    "дикторы"
+  ]
+},
+
+{
+  "id": 3,
+  "url": "./audio/MashaMedved.mp3",
+  "cover": "./img/MashaMedved.svg",
+  "title": "Маша и медведь",
+  "artist": [
+    "дикторы"
+  ]
+},
+
+{
+  "id": 4,
+  "url": "./audio/pigs.mp3",
+  "cover": "./img/pigs.svg",
+  "title": "Три поросенка",
+  "artist": [
+    "дикторы"
+  ]
+},
+
+{
+"id": 5,
+"url": "./audio/repka.mp3",
+"cover": "./img/repka.svg",
+"title": "Репка",
+"artist": [
+"дикторы"
+]
+},
+{
+"id": 6,
+"url": "./audio/coloboc.mp3",
+    "cover": "./img/coloboc.svg",
+    "title": "Колобок",
+    "artist": [
+"дикторы"
+]
+},
+  {
+    "id": 7,
+    "url": "./audio/teremok.mp3",
+    "cover": "./img/teremok.svg",
+    "title": "Теремок",
+    "artist": [
+      "дикторы"
+    ]
+  }
+
+]
